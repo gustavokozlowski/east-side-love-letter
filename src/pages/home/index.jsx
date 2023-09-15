@@ -1,7 +1,4 @@
 import { useState } from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import Modal from "react-bootstrap/Modal";
 import Badge from "react-bootstrap/Badge";
 export function Home() {
@@ -58,12 +55,13 @@ export function Home() {
         <Modal.Header>
           <Modal.Title className="flex  w-full justify-center items-center">
             <div className="font-serif  w-72 text-center">
-            <h2 className="text-center text-gray-500  tracking-wide ">CONVITE</h2>
+              <h2 className="text-center text-gray-500  tracking-wide ">
+                CONVITE
+              </h2>
             </div>
           </Modal.Title>
         </Modal.Header>
         <Modal.Body className="font-serif">
-        
           <h2 className="text-gray-500 text-lg">Prezada, Thamara Abreu</h2>
           <p className="text-gray-500 ">
             venho aqui, através desse mero convite te convidar para uma noite de

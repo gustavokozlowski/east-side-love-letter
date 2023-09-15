@@ -17,12 +17,14 @@ export const Box = () => {
     console.log(data);
   };
   return (
-    <div className="bg-white shadow-2xl text-black rounded-3xl w-1/4 h-2/5 flex flex-col text-center justify-center items-center">
+    <div className="bg-white shadow-2xl box-content text-black rounded-3xl w-1/4 h-2/5 flex flex-col text-center justify-center items-center">
       <form
-        className=" flex flex-col gap-5 w-96 h-96 justify-center box-content"
+        className=" flex flex-col gap-4 w-96 h-96 justify-center box-content"
         onSubmit={handleSubmit(onSubmit)}
       >
-        <h1 className="text-4xl font-bold shadow-text text-blue-500">Login</h1>
+        <h1 className="text-4xl font-bold shadow-text text-blue-500 transition-all">
+          Login
+        </h1>
         <div className="flex flex-col">
           <label
             className="font-bold text-left shadow-text text-blue-500"
@@ -37,7 +39,7 @@ export const Box = () => {
             {...register("nome", { required: true })}
           />
           {errors.nome && (
-            <span className="font-medium self-start p-2 shadow-error text-red-500">
+            <span className="font-medium self-start shadow-error text-red-500">
               Meu deus vidinha, tu errou feio 🙄
             </span>
           )}
@@ -56,13 +58,13 @@ export const Box = () => {
             {...register("senha", { required: true })}
           />
           {errors.senha && (
-            <span className="font-medium self-start p-2 shadow-error  text-red-500">
+            <span className="font-medium self-start  shadow-error  text-red-500">
               Gostosa e burra do jeito que eu gosto 😋
             </span>
           )}
         </div>
 
-        <button className="bg-gradient-to-l from-blue-700 to-blue-400  rounded-2xl hover:brightness-125 mt-4 text-slate-100  font-bold h-10 self-center w-36">
+        <button className="transition-all bg-gradient-to-l from-blue-700 to-blue-400  rounded-2xl hover:brightness-125 text-slate-100  font-bold h-10 self-center w-36">
           Entrar
         </button>
       </form>
