@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-purple-900;
+}
+
+.shadow-text {
+  text-shadow: 0.5px 0.5px #ddd;
+}
+.shadow-error {
+  text-shadow: 0.1px 0.1px #ddd;
+}
+
+.home-layout {
+  background-image: url("https://as2.ftcdn.net/v2/jpg/02/49/99/89/1000_F_249998966_6kpD1s3O37dCAmR7z7a0DOLFVXzck2eh.jpg");
+}
