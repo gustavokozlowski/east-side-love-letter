@@ -73,7 +73,7 @@ export function Home() {
           <div className="flex flex-col gap">
           <p className="flex gap-2">Data: <p className="text-gray-600">14/02 📆</p> </p>
           <p className="flex gap-2">Local: <p className="text-gray-600">Gutham House 🏡</p></p>
-          <p className="flex gap-2">Horário: <p className="text-gray-600">21:30hrs ⏰</p></p>
+          <p className="flex gap-2">Horário: <p className="text-gray-600">22:00hrs ⏰</p></p>
           </div>
           <p className="flex gap-2">
             Obs: <p className="text-slate-500 break-words">Todas as suas dúvidas serão respondidas pelo WhatsApp.</p>
